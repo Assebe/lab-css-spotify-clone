@@ -1,8 +1,148 @@
-/*
-Colors:
+* {
+font-family: Arial, Helvetica, sans-serif;
+font-weight: lighter;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+header{
+    max-height: fit-content;
+}
 
-*/
+#spotifyLogo {
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+ ul  {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    align-items: center;
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+ul li{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+li a{
+    color:black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#section1 {
+    background-image: url(/images/landing.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 1000px;
+    color: white;
+}
+#sec1H1{
+    font-size: 100px;
+    text-align: center;
+    padding-top: 350px;
+}
+
+#sec1H3{
+    font-size: 30px;
+    margin-left: 350px;
+    margin-right: 350px;
+    text-align: center;
+}
+
+#section2  {
+    display: flex;
+    flex-flow: row;
+}
+
+#section2Header{
+    text-align: center;
+    padding-bottom: 50px;
+    text-decoration-line:underline;
+    text-decoration-style: 200px;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+  
+
+}
+
+.sec2div {
+    align-items: center;
+    margin-left:100px;
+    margin-right: 100px;
+    width: 250px;
+    color: rgb(69, 69, 69);
+}
+
+.section2H3 {
+    font-weight: 900;
+    color: rgb(57, 197, 111);
+}
+
+#section3 {
+    background-color: rgb(34, 183, 91);
+    height:800px;
+    margin: 50px;
+    color: white;
+    font-weight: 900;
+}
+
+#section3Header{
+    padding-left: 40px;
+    padding-top: 50px;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
+}
+
+.section3H3 {
+    font-weight: bolder;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+
+.section3Text {
+    margin: 70px;
+    font-weight: bold;
+    width: 300px;
+}
+
+
+#landingPage {
+    width: 400px;
+}
+
+#whiteSpotifyIcon {
+    width: 100px;
+    display: flex;
+    float: center;
+    padding-left: 600px;
+    padding-right: 600px;
+
+}
+
+#musicIcon {
+width: 100px;
+}
+
+#hiqhQualityIcon {
+width: 100px;
+}
+
+#devicesIcon {
+width: 100px;
+
+}
+
+#spotifyAppScreenshot {
+    width: 300px;
+    position: relative;
+    display: flex;
+    margin-right: 80px;
+    float: right;
+}
+
